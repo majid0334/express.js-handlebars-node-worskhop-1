@@ -1,0 +1,12 @@
+{{!-- {{#if movie}}{{else}}
+  Can not get movie list!
+{{/if}} --}}
+
+<ul>
+  {{! //loppar data }}
+  {{#each data}}
+    {{!  //nuvårande data }}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
+<img src={{image}} alt="Image" />
